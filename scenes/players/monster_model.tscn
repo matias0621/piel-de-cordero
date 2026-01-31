@@ -1,16 +1,19 @@
-[gd_scene format=3 uid="uid://dre3exjdxfdfv"]
+[gd_scene format=3 uid="uid://kufr8ph0ur8h"]
 
-[ext_resource type="PackedScene" uid="uid://dh0fcw5w8t4t8" path="res://assets/piel_de_cordero_1.blend" id="1_mm6es"]
+[ext_resource type="PackedScene" uid="uid://cm5lpxjeos4vo" path="res://assets/new_monster/piel de cordero 1.blend" id="1_3l3h4"]
+[ext_resource type="Script" uid="uid://bsq52k0ootd4p" path="res://scenes/players/animations.gd" id="2_cpugp"]
 
-[node name="piel_de_cordero_1" unique_id=1382098550 instance=ExtResource("1_mm6es")]
+[node name="MonsterModel" unique_id=88660676 node_paths=PackedStringArray("_animationPlayer") instance=ExtResource("1_3l3h4")]
+script = ExtResource("2_cpugp")
+_animationPlayer = NodePath("AnimationPlayer")
 
-[node name="Empty" parent="." index="0" unique_id=901742434]
+[node name="Empty" parent="." index="0" unique_id=1799809878]
 visible = false
 
-[node name="Empty_001" parent="." index="1" unique_id=197892150]
+[node name="Empty_001" parent="." index="1" unique_id=164073219]
 visible = false
 
-[node name="Skeleton3D" parent="metarig" parent_id_path=PackedInt32Array(1814340699) index="0" unique_id=712821254]
+[node name="Skeleton3D" parent="metarig" parent_id_path=PackedInt32Array(2125596228) index="0" unique_id=2060189019]
 bones/0/position = Vector3(-0.0016191303, 0.7184815, 0.01981086)
 bones/1/rotation = Quaternion(-0.00024772674, -0.0037998925, -0.06505378, 0.9978745)
 bones/2/rotation = Quaternion(0.0010656009, 0.0034301768, 0.26238075, 0.9649578)
@@ -41,12 +44,15 @@ bones/21/rotation = Quaternion(0.2876856, -0.052126374, -0.24026626, 0.9256306)
 bones/22/rotation = Quaternion(-0.42592344, -0.095678106, 0.16315702, 0.8847681)
 bones/23/rotation = Quaternion(-0.13208976, 0.8489284, 0.412894, -0.30231017)
 bones/24/rotation = Quaternion(0.69289124, 0.02362584, -0.677797, 0.24481578)
-bones/25/rotation = Quaternion(-0.17608392, 0.0037090117, 0.028432075, 0.98395747)
+bones/25/rotation = Quaternion(-0.18529435, 0.0042663314, -0.07836855, 0.97954386)
 bones/27/rotation = Quaternion(-0.6777969, -0.2448159, 0.6928913, -0.023625948)
-bones/28/rotation = Quaternion(-0.17608391, -0.003709078, -0.028432144, 0.98395747)
+bones/28/rotation = Quaternion(-0.18529433, -0.0042664036, 0.0783685, 0.9795439)
 
-[node name="Plane" parent="." index="3" unique_id=1457213307]
+[node name="Plane" parent="." index="3" unique_id=1620150250]
 visible = false
 
-[node name="AnimationPlayer" parent="." index="4" unique_id=872312929]
-speed_scale = 0.8
+[node name="Empty_002" parent="." index="4" unique_id=820525514]
+visible = false
+
+[node name="Cube_001" parent="." index="5" unique_id=671872678]
+visible = false

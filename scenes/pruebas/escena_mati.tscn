@@ -27,15 +27,3 @@ transform = Transform3D(-0.045415316, 0.8177265, -0.5738126, 0, 0.5744053, 0.818
 
 [node name="Players" parent="." unique_id=796467928 instance=ExtResource("1_adpu8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.114456, 1, -16.941368)
-
-[node name="Players2" parent="." unique_id=1804388098 instance=ExtResource("1_adpu8")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1179199, 1, -25.450073)
-device_id = 0
-
-[node name="Players3" parent="." unique_id=453675504 instance=ExtResource("1_adpu8")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28978348, 1, -12.431041)
-device_id = 1
-
-[node name="Players4" parent="." unique_id=2070876589 instance=ExtResource("1_adpu8")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4297867, 1, -21.012094)
-device_id = 2

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dh0fcw5w8t4t8"
-path="res://.godot/imported/piel_de_cordero_1.blend-f91c4230e404aaa271c88ec4314fc352.scn"
+uid="uid://cm5lpxjeos4vo"
+path="res://.godot/imported/piel de cordero 1.blend-10a24130f9b5f2cbb724105715a8ff16.scn"
 
 [deps]
 
-source_file="res://assets/piel_de_cordero_1.blend"
-dest_files=["res://.godot/imported/piel_de_cordero_1.blend-f91c4230e404aaa271c88ec4314fc352.scn"]
+source_file="res://assets/new_monster/piel de cordero 1.blend"
+dest_files=["res://.godot/imported/piel de cordero 1.blend-10a24130f9b5f2cbb724105715a8ff16.scn"]
 
 [params]
 
