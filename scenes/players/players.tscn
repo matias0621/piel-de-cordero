@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://eybnci8tomx0"]
 
 [ext_resource type="Script" uid="uid://dudk0ituk5j8w" path="res://scenes/players/players.gd" id="1_u6k21"]
+[ext_resource type="PackedScene" uid="uid://dnh5uxwpjoxym" path="res://mask_throw.tscn" id="2_j7hel"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n01kx"]
 albedo_color = Color(0.67602855, 0.14712438, 0, 1)
@@ -15,12 +16,17 @@ material = SubResource("StandardMaterial3D_n01kx")
 [node name="Players" type="CharacterBody3D" unique_id=796467928]
 script = ExtResource("1_u6k21")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=506146488]
+[node name="Player" type="MeshInstance3D" parent="." unique_id=506146488]
 mesh = SubResource("CapsuleMesh_u6k21")
 
-[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1561538385]
+[node name="ThrownObject" type="MeshInstance3D" parent="." unique_id=1561538385]
 transform = Transform3D(0.44745976, 0, 0, 0, 0.36374098, 0, 0, 0, 0.65277433, 0, 0.47722667, 0.4031471)
 mesh = SubResource("BoxMesh_j7hel")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=384090268]
 shape = SubResource("CapsuleShape3D_qrkte")
+
+[node name="Node3D" type="Node3D" parent="." unique_id=1747571429]
+
+[node name="Mask" parent="." unique_id=1312072535 instance=ExtResource("2_j7hel")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.38782442, 0.2291348)
